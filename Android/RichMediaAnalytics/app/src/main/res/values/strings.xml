@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Rich Media Analytics</string>
+
+    <string name="media_type_str">Select media type</string>
+    <string-array name="media_type_array">
+        <item>Video</item>
+        <item>Audio</item>
+        <item>Vid/Aud</item>
+    </string-array>
+</resources>

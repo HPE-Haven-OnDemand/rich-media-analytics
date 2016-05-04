@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077A5E40A53DDA36510393633AABF5D5 /* havenondemand-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1703A720FFEF88929EBC45FEC6D62DD8 /* havenondemand-dummy.m */; };
+		0F68C3FA2A77DF33454E46EF17D10242 /* Pods-RichMediaAnalytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D383546A8B44A648815A8412CEB8DFA /* Pods-RichMediaAnalytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F5CC0E25AE37A84D5A72BF7CBFA958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7A05E200AB4AF09EB4BC5BD7F361F0FF /* havenondemand-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 909A0FACE807A0B9A6A664FA32367C27 /* havenondemand-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		923FBE36E051E5AE4D9E174292504F6F /* HODResponseObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5116A1929D4EEB6AAEBE5ECCBAFB45EC /* HODResponseObjects.swift */; };
+		A78607CC3EA22DD69F85A20DBB48674D /* HODResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80311D7BDDCD82701AB021EB5CF407 /* HODResponseParser.swift */; };
+		AC795C657A256763891327A69BC26827 /* HODClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFE12E73CFB7B1BE026A7AB3EF9EAFA /* HODClient.swift */; };
+		BD9B1D63014989E455290232829FFF17 /* Pods-RichMediaAnalytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCDC0F60BA43D18D55A45B39F78AE67 /* Pods-RichMediaAnalytics-dummy.m */; };
+		E4CD3074AE162ECB552A54BF6EBC50F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B7EEDB331049721532F0E587AC8729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1BEE9D57F2B63874CDEC7387EDCBAEE;
+			remoteInfo = havenondemand;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09E30EDB21FE872853F0DD7DAF8BB9D2 /* havenondemand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = havenondemand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1703A720FFEF88929EBC45FEC6D62DD8 /* havenondemand-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "havenondemand-dummy.m"; sourceTree = "<group>"; };
+		1D8CD17DAB48494AA3921C4E9978B236 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2103F9609A2DB2D62513E2846221DA78 /* havenondemand.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = havenondemand.xcconfig; sourceTree = "<group>"; };
+		220CF1CC84665503DC5506F9B20D9C7B /* havenondemand-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "havenondemand-prefix.pch"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		423F6B382060099E65669A4C50F610EF /* Pods-RichMediaAnalytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RichMediaAnalytics.debug.xcconfig"; sourceTree = "<group>"; };
+		446AA50A6F8F32BE15099EDB2E19B552 /* Pods-RichMediaAnalytics-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RichMediaAnalytics-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D383546A8B44A648815A8412CEB8DFA /* Pods-RichMediaAnalytics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RichMediaAnalytics-umbrella.h"; sourceTree = "<group>"; };
+		4FCDC0F60BA43D18D55A45B39F78AE67 /* Pods-RichMediaAnalytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RichMediaAnalytics-dummy.m"; sourceTree = "<group>"; };
+		5116A1929D4EEB6AAEBE5ECCBAFB45EC /* HODResponseObjects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HODResponseObjects.swift; path = HODClient/lib/HODResponseObjects.swift; sourceTree = "<group>"; };
+		59FC6B194416FCDFB7CC228F42463D0D /* Pods-RichMediaAnalytics-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RichMediaAnalytics-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6AFE12E73CFB7B1BE026A7AB3EF9EAFA /* HODClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HODClient.swift; path = HODClient/lib/HODClient.swift; sourceTree = "<group>"; };
+		70AE5C00106271406CB590D23472F99D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86059AFD6FAA8B1B520BB515515DBDF7 /* Pods-RichMediaAnalytics-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RichMediaAnalytics-frameworks.sh"; sourceTree = "<group>"; };
+		8F88A1F60C24F977C5D8C8FC734CA114 /* Pods-RichMediaAnalytics-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RichMediaAnalytics-resources.sh"; sourceTree = "<group>"; };
+		909A0FACE807A0B9A6A664FA32367C27 /* havenondemand-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "havenondemand-umbrella.h"; sourceTree = "<group>"; };
+		A8A4B3768836CECD484A411FF59DAE40 /* Pods-RichMediaAnalytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RichMediaAnalytics.release.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D6B7300854F8EE49F39B6513FAACD545 /* Pods_RichMediaAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RichMediaAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED6F668044FD37984B7DA6F919F722F /* havenondemand.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = havenondemand.modulemap; sourceTree = "<group>"; };
+		EE80311D7BDDCD82701AB021EB5CF407 /* HODResponseParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HODResponseParser.swift; path = HODClient/lib/HODResponseParser.swift; sourceTree = "<group>"; };
+		EEDB39B151217ACB162BD6934DA9EEBD /* Pods-RichMediaAnalytics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RichMediaAnalytics.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CAC2A5556EAC517CFEE99DB17B70A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F5CC0E25AE37A84D5A72BF7CBFA958 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E5A0F80A58238ECD1DD0713B8D20D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4CD3074AE162ECB552A54BF6EBC50F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28A09515EEA7A8D9E158BBE3C8430A2E /* havenondemand */ = {
+			isa = PBXGroup;
+			children = (
+				6AFE12E73CFB7B1BE026A7AB3EF9EAFA /* HODClient.swift */,
+				5116A1929D4EEB6AAEBE5ECCBAFB45EC /* HODResponseObjects.swift */,
+				EE80311D7BDDCD82701AB021EB5CF407 /* HODResponseParser.swift */,
+				86E404E05D2060192CFC8A6B4C89E5CA /* Support Files */,
+			);
+			path = havenondemand;
+			sourceTree = "<group>";
+		};
+		745407F17F1E87AECE4D9CCDC9AC8B17 /* Pods-RichMediaAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CD17DAB48494AA3921C4E9978B236 /* Info.plist */,
+				EEDB39B151217ACB162BD6934DA9EEBD /* Pods-RichMediaAnalytics.modulemap */,
+				59FC6B194416FCDFB7CC228F42463D0D /* Pods-RichMediaAnalytics-acknowledgements.markdown */,
+				446AA50A6F8F32BE15099EDB2E19B552 /* Pods-RichMediaAnalytics-acknowledgements.plist */,
+				4FCDC0F60BA43D18D55A45B39F78AE67 /* Pods-RichMediaAnalytics-dummy.m */,
+				86059AFD6FAA8B1B520BB515515DBDF7 /* Pods-RichMediaAnalytics-frameworks.sh */,
+				8F88A1F60C24F977C5D8C8FC734CA114 /* Pods-RichMediaAnalytics-resources.sh */,
+				4D383546A8B44A648815A8412CEB8DFA /* Pods-RichMediaAnalytics-umbrella.h */,
+				423F6B382060099E65669A4C50F610EF /* Pods-RichMediaAnalytics.debug.xcconfig */,
+				A8A4B3768836CECD484A411FF59DAE40 /* Pods-RichMediaAnalytics.release.xcconfig */,
+			);
+			name = "Pods-RichMediaAnalytics";
+			path = "Target Support Files/Pods-RichMediaAnalytics";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F0A9300AE343DEDEA9FBFA3C0385453F /* Pods */,
+				B7DA2A729B8692A83252FA633B2F301F /* Products */,
+				EB77E3C2ED767D3E576CBF00FC7D18C3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86E404E05D2060192CFC8A6B4C89E5CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DED6F668044FD37984B7DA6F919F722F /* havenondemand.modulemap */,
+				2103F9609A2DB2D62513E2846221DA78 /* havenondemand.xcconfig */,
+				1703A720FFEF88929EBC45FEC6D62DD8 /* havenondemand-dummy.m */,
+				220CF1CC84665503DC5506F9B20D9C7B /* havenondemand-prefix.pch */,
+				909A0FACE807A0B9A6A664FA32367C27 /* havenondemand-umbrella.h */,
+				70AE5C00106271406CB590D23472F99D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/havenondemand";
+			sourceTree = "<group>";
+		};
+		B7DA2A729B8692A83252FA633B2F301F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09E30EDB21FE872853F0DD7DAF8BB9D2 /* havenondemand.framework */,
+				D6B7300854F8EE49F39B6513FAACD545 /* Pods_RichMediaAnalytics.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EB77E3C2ED767D3E576CBF00FC7D18C3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				745407F17F1E87AECE4D9CCDC9AC8B17 /* Pods-RichMediaAnalytics */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F0A9300AE343DEDEA9FBFA3C0385453F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28A09515EEA7A8D9E158BBE3C8430A2E /* havenondemand */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CE318B8FBA32CE3AF5933F85A4699D64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F68C3FA2A77DF33454E46EF17D10242 /* Pods-RichMediaAnalytics-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F177F3151152E2DAB7455C491C4E1E8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A05E200AB4AF09EB4BC5BD7F361F0FF /* havenondemand-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		31C5C3120F1EF2D8D57354B3B83A5F9E /* Pods-RichMediaAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12B366ADB6AB53D343E2F6E8FEFC4E23 /* Build configuration list for PBXNativeTarget "Pods-RichMediaAnalytics" */;
+			buildPhases = (
+				7189BD78A6A514CD7ABDDE10B937BEB8 /* Sources */,
+				C4E5A0F80A58238ECD1DD0713B8D20D7 /* Frameworks */,
+				CE318B8FBA32CE3AF5933F85A4699D64 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7399523036740839B2E77E077E0BFE70 /* PBXTargetDependency */,
+			);
+			name = "Pods-RichMediaAnalytics";
+			productName = "Pods-RichMediaAnalytics";
+			productReference = D6B7300854F8EE49F39B6513FAACD545 /* Pods_RichMediaAnalytics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1BEE9D57F2B63874CDEC7387EDCBAEE /* havenondemand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF27C2B719ABCFF4089FFCD4B6F72442 /* Build configuration list for PBXNativeTarget "havenondemand" */;
+			buildPhases = (
+				DCD909613EDF3BA651660F8E3BC50109 /* Sources */,
+				4CAC2A5556EAC517CFEE99DB17B70A4B /* Frameworks */,
+				F177F3151152E2DAB7455C491C4E1E8A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = havenondemand;
+			productName = havenondemand;
+			productReference = 09E30EDB21FE872853F0DD7DAF8BB9D2 /* havenondemand.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B7DA2A729B8692A83252FA633B2F301F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1BEE9D57F2B63874CDEC7387EDCBAEE /* havenondemand */,
+				31C5C3120F1EF2D8D57354B3B83A5F9E /* Pods-RichMediaAnalytics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7189BD78A6A514CD7ABDDE10B937BEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9B1D63014989E455290232829FFF17 /* Pods-RichMediaAnalytics-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD909613EDF3BA651660F8E3BC50109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077A5E40A53DDA36510393633AABF5D5 /* havenondemand-dummy.m in Sources */,
+				AC795C657A256763891327A69BC26827 /* HODClient.swift in Sources */,
+				923FBE36E051E5AE4D9E174292504F6F /* HODResponseObjects.swift in Sources */,
+				A78607CC3EA22DD69F85A20DBB48674D /* HODResponseParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7399523036740839B2E77E077E0BFE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = havenondemand;
+			target = D1BEE9D57F2B63874CDEC7387EDCBAEE /* havenondemand */;
+			targetProxy = 17B7EEDB331049721532F0E587AC8729 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09F36AC7BD65564F322F615FB237761C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A4B3768836CECD484A411FF59DAE40 /* Pods-RichMediaAnalytics.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RichMediaAnalytics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RichMediaAnalytics/Pods-RichMediaAnalytics.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RichMediaAnalytics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		700FCD5016FC48C56D6831D214810088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 423F6B382060099E65669A4C50F610EF /* Pods-RichMediaAnalytics.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RichMediaAnalytics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RichMediaAnalytics/Pods-RichMediaAnalytics.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RichMediaAnalytics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8AD771A6300ACAAD61F01449324FA99D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2103F9609A2DB2D62513E2846221DA78 /* havenondemand.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/havenondemand/havenondemand-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/havenondemand/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/havenondemand/havenondemand.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = havenondemand;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		935E19B4E2DCBEF75215D4E03222F776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2103F9609A2DB2D62513E2846221DA78 /* havenondemand.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/havenondemand/havenondemand-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/havenondemand/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/havenondemand/havenondemand.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = havenondemand;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2A3FCA6599E8034578E80B9179C76CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AB66C978656E240C917407B296597F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12B366ADB6AB53D343E2F6E8FEFC4E23 /* Build configuration list for PBXNativeTarget "Pods-RichMediaAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700FCD5016FC48C56D6831D214810088 /* Debug */,
+				09F36AC7BD65564F322F615FB237761C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A3FCA6599E8034578E80B9179C76CD /* Debug */,
+				AB66C978656E240C917407B296597F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF27C2B719ABCFF4089FFCD4B6F72442 /* Build configuration list for PBXNativeTarget "havenondemand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD771A6300ACAAD61F01449324FA99D /* Debug */,
+				935E19B4E2DCBEF75215D4E03222F776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

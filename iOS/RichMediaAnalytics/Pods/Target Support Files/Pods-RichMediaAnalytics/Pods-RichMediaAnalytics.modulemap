@@ -1,0 +1,6 @@
+framework module Pods_RichMediaAnalytics {
+  umbrella header "Pods-RichMediaAnalytics-umbrella.h"
+
+  export *
+  module * { export * }
+}

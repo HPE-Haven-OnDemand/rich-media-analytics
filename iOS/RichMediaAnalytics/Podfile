@@ -1,0 +1,16 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.2'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+target 'RichMediaAnalytics' do
+pod 'havenondemand', '1.0.4'
+end
+
+target 'RichMediaAnalyticsTests' do
+
+end
+
+target 'RichMediaAnalyticsUITests' do
+
+end

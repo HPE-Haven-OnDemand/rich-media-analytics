@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VUV2</Machine>
+    <WindowsUser>vuv</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d2333033-07e0-4578-955f-53347993d5db</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\vuv\Documents\Visual Studio 2015\Projects\RichMediaAnalytics\RichMediaAnalytics\RichMediaAnalytics.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>384F7D9B1A6825C561B3654F775796D890A83CAE6F107D7FFCA2E5B02ABADFBC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>d2333033-07e0-4578-955f-53347993d5db_1.0.0.0_neutral__wbp1dq0grzakt</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>d2333033-07e0-4578-955f-53347993d5db_wbp1dq0grzakt!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>d2333033-07e0-4578-955f-53347993d5db</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=vuv</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\RichMediaAnalytics\RichMediaAnalytics\RichMediaAnalytics.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-28T21:42:08.293</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\RichMediaAnalytics\RichMediaAnalytics\RichMediaAnalytics.Windows\bin\Debug\RichMediaAnalytics.Windows.exe">
+      <PackagePath>RichMediaAnalytics.Windows.exe</PackagePath>
+      <Modified>2016-05-04T20:57:50.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\HODClient\HODClient\bin\Release\HODClient.dll">
+      <PackagePath>HODClient.dll</PackagePath>
+      <Modified>2016-04-20T16:19:26.206</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\HODResponseParser\HODResponseParser\bin\Release\HODResponseParser.dll">
+      <PackagePath>HODResponseParser.dll</PackagePath>
+      <Modified>2016-04-20T16:18:36.624</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\HODResponseParser\HODResponseParser\bin\Debug\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2012-11-21T05:45:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\RichMediaAnalytics\RichMediaAnalytics\RichMediaAnalytics.Windows\Assets\audio_icon.png">
+      <PackagePath>Assets\audio_icon.png</PackagePath>
+      <Modified>2016-04-08T21:33:18.224</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\RichMediaAnalytics\RichMediaAnalytics\RichMediaAnalytics.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-28T19:41:25.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\RichMediaAnalytics\RichMediaAnalytics\RichMediaAnalytics.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-28T20:00:47.166</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\RichMediaAnalytics\RichMediaAnalytics\RichMediaAnalytics.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-28T19:59:49.431</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\RichMediaAnalytics\RichMediaAnalytics\RichMediaAnalytics.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-28T20:01:16.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\RichMediaAnalytics\RichMediaAnalytics\RichMediaAnalytics.Windows\Assets\video_icon.png">
+      <PackagePath>Assets\video_icon.png</PackagePath>
+      <Modified>2016-04-08T21:33:18.214</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\RichMediaAnalytics\RichMediaAnalytics\RichMediaAnalytics.Windows\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <Modified>2015-07-07T05:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\RichMediaAnalytics\RichMediaAnalytics\RichMediaAnalytics.Shared\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2015-07-07T05:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\RichMediaAnalytics\RichMediaAnalytics\RichMediaAnalytics.Shared\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2015-07-07T05:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\RichMediaAnalytics\RichMediaAnalytics\RichMediaAnalytics.Shared\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2015-07-07T05:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\RichMediaAnalytics\RichMediaAnalytics\RichMediaAnalytics.Windows\bin\Debug\RichMediaAnalytics.Windows.xr.xml">
+      <PackagePath>RichMediaAnalytics.Windows.xr.xml</PackagePath>
+      <Modified>2016-05-04T20:56:07.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\RichMediaAnalytics\RichMediaAnalytics\RichMediaAnalytics.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-04-28T21:42:04.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\RichMediaAnalytics\RichMediaAnalytics\RichMediaAnalytics.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-05-04T20:57:50.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vuv\Documents\Visual Studio 2015\Projects\RichMediaAnalytics\RichMediaAnalytics\RichMediaAnalytics.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-05-03T20:59:36.587</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

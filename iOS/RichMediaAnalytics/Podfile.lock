@@ -1,0 +1,10 @@
+PODS:
+  - havenondemand (1.0.4)
+
+DEPENDENCIES:
+  - havenondemand (= 1.0.4)
+
+SPEC CHECKSUMS:
+  havenondemand: de7ed5a042eee4b9b6982a2a61852d533e017c34
+
+COCOAPODS: 0.39.0

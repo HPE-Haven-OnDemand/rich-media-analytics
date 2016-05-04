@@ -1,0 +1,7 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <ReferenceAssembly PathName="c:\users\vuv\documents\visual studio 2015\projects\hodclient\hodclient\bin\release\hodclient.dll" HashGuid="0fa1b24a-b8bb-df82-d612-3ebd06efaf9d" />
+    <ReferenceAssembly PathName="c:\users\vuv\documents\visual studio 2015\projects\hodresponseparser\hodresponseparser\bin\release\hodresponseparser.dll" HashGuid="2fd2bee6-6f36-2549-da85-665e317aaf31" />
+    <ReferenceAssembly PathName="c:\users\vuv\documents\visual studio 2015\projects\hodresponseparser\hodresponseparser\bin\debug\newtonsoft.json.dll" HashGuid="962eab9d-2610-3ee3-6c11-2f3bc9a70fed" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

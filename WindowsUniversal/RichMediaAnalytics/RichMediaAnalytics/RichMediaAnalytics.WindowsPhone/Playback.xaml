@@ -1,0 +1,75 @@
+﻿<Page
+    x:Class="RichMediaAnalytics.Playback"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RichMediaAnalytics"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button" x:Key="buttonpanel">
+                <Setter Property="MinWidth" Value="90"/>
+                <Setter Property="MaxWidth" Value="90"/>
+                <Setter Property="BorderThickness" Value="0"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="Background" Value="#01A982"/>
+            </Style>
+            <Style TargetType="Button" x:Key="singlebutton">
+                <Setter Property="MinWidth" Value="70"/>
+                <Setter Property="MaxWidth" Value="70"/>
+                <Setter Property="MaxHeight" Value="20"/>
+                <Setter Property="Height" Value="20"/>
+                <Setter Property="BorderThickness" Value="0"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="Background" Value="#01A982"/>
+            </Style>
+
+            <Style TargetType="Button" x:Key="menuBtn">
+                <Setter Property="Background" Value="#01A982"/>
+                <Setter Property="BorderThickness" Value="0"/>
+            </Style>
+        </ResourceDictionary>
+
+    </Page.Resources>
+    <Grid Background="#425563">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="8,2,8,2" VerticalAlignment="Center" HorizontalAlignment="Stretch">
+            <TextBox Name="instantsearch" VerticalContentAlignment="Center" PlaceholderText="Instant search" IsEnabled="True" FontSize="16" InputScope="Search" Width="240" Height="30" Margin="0,2,0,2" GotFocus="instantsearch_GotFocus" KeyDown="instantSearch_KeyDown" TextChanged="search_TextChanged"/>
+            <TextBlock Name="searchwordcount" Text="" Margin="4,0,10,0" VerticalAlignment="Center" FontSize="20"/>
+            <Button Name="nextwordbtn" Content="Next" Style="{StaticResource singlebutton}" IsEnabled="True" Click="nextwordbtn_Click"/>
+            
+        </StackPanel>
+        <MediaElement Grid.Row="1" Name="mplayer" HorizontalAlignment="Center" VerticalAlignment="Top" AutoPlay="False" AreTransportControlsEnabled="True" SeekCompleted="mplayer_SeekCompleted"  MaxHeight="360" MinHeight="280" MinWidth="400" MediaEnded="mplayer_MediaEnded" MediaOpened="mplayer_MediaOpened"/>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Height="40">
+            <Button Name="transcriptbtn" Content="Transcript" Click="transcriptbtn_Click" IsEnabled="False" Style="{StaticResource buttonpanel}" VerticalAlignment="Center" Margin="0,0,2,0"/>
+            <Button Name="conceptbtn" Content="Concepts" Click="conceptbtn_Click" IsEnabled="False" Style="{StaticResource buttonpanel}" VerticalAlignment="Center" Margin="2,0,2,0"/>
+            <Button Name="sentimentbtn" Content="Opinions" Click="sentmentbtn_Click" IsEnabled="False" Style="{StaticResource buttonpanel}" VerticalAlignment="Center" Margin="2,0,2,0"/>
+            <Button Name="entitybtn" Content="Interests" Click="entitybtn_Click" IsEnabled="False" Style="{StaticResource buttonpanel}" VerticalAlignment="Center" Margin="2,0,0,0"/>
+        </StackPanel>
+        <ScrollViewer Name="web_view" Visibility="Collapsed" Grid.Row="3" Margin="10,0,10,0" Background="White">
+            <WebView x:Name="processedcontent" Width="Auto" Height="Auto" Margin="0,0,0,10"/>
+        </ScrollViewer>
+        <ScrollViewer Grid.Row="3" Name="transcript_view" VerticalAlignment="Top" Background="White">
+            <RichTextBlock Name="runningText" SelectionChanged="runningText_SelectionChanged" TextWrapping="Wrap" Padding="5,5,5,5">
+                <Paragraph FontSize="20">
+                    <Run Foreground="Green" Text="{Binding ReadText}"  />
+                    <Run Foreground="Red" Text="{Binding Word}" />
+                    <Run Foreground="Gray" Text="{Binding UnreadText}" />
+                </Paragraph>
+            </RichTextBlock>
+        </ScrollViewer>
+        <StackPanel Name="indicator" Grid.Row="3" Orientation="Vertical" Background="#425563" Opacity="0.5">
+            <TextBlock Name="operation" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Width="Auto" Margin="0,0,0,0"/>
+            <ProgressBar x:Name="loadingindicator" IsIndeterminate="True" Visibility="Collapsed" Width="300" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Page>
