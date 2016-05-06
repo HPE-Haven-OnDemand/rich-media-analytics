@@ -19,8 +19,11 @@ namespace RichMediaAnalytics
     public sealed partial class App : Application
     {
         private static HODClient hodClient = null;
+		// Provide your own API key
         public static String mHodApiKey = "";
-
+		// Provide your valid server endpoint
+		public static String mRemoteServer = "http://www.yourcompany.com/media/";
+        
         public static HODClient GetHODClient()
         {
             if (hodClient == null)

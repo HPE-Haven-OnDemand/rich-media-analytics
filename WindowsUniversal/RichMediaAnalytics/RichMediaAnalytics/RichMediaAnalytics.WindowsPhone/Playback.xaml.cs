@@ -159,7 +159,7 @@ namespace RichMediaAnalytics
             transcriptbtn.IsEnabled = false;
             nextwordbtn.IsEnabled = false;
             searchwordcount.Text = "";
-            string content = "http://www.hodshowcase.com/media/" + item.filename;
+            string content = App.mRemoteServer + item.filename;
             Uri contentLink = new Uri(content, UriKind.RelativeOrAbsolute);
             mplayer.Source = contentLink;
         }

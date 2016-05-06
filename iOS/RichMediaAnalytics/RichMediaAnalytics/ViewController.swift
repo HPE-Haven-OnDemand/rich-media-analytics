@@ -65,7 +65,7 @@ class ViewController: UIViewController, HODClientDelegate, UICollectionViewDeleg
     var mMoviePlayer: AVPlayer?
     var mHodApp = ""
     var mMediaList: Array<MediaItem>!
-    var mDomain:String = "http://www.hodshowcase.com/media/"
+    var mDomain:String = "http://www.yourcompany.com/media/"
 
     var mSelectedMediaItem : MediaItem!
     

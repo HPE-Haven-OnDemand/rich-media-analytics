@@ -100,6 +100,7 @@ public class MainActivity extends ListActivity implements IHODClientCallback, Me
     VIEW_ID viewID = VIEW_ID.MEDIA_LIST;
 
     private String mHodApiKey = ""; // place you apikey here
+	private String mRemoteServer = "" // Place your valid remote server endpoint here
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -595,7 +596,7 @@ public class MainActivity extends ListActivity implements IHODClientCallback, Me
                 String paragraph = TextUtils.join(" ", sub) + "...";
                 mMediaContent.loadData("<html><body><div>"+paragraph+"</div></body></html>", "text/html; charset=utf-8",null);
                 // play media
-                String VideoURL = "http://www.hodshowcase.com/media/" + mSelectedMedia.filename;
+                String VideoURL = mRemoteServer + mSelectedMedia.filename;
                 Uri video = Uri.parse(VideoURL);
                 mMediaPlayer.setVideoURI(video);
 

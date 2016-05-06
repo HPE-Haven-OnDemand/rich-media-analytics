@@ -32,8 +32,8 @@ namespace RichMediaAnalytics
             {"ru-RU", "rus"},
             {"pt-BR", "por"}
         };
-
-        Windows.UI.Core.CoreDispatcher messageDispatcher = Window.Current.CoreWindow.Dispatcher;
+		
+		Windows.UI.Core.CoreDispatcher messageDispatcher = Window.Current.CoreWindow.Dispatcher;
         HODClient mHodClient = null;
         string mJobID = "";
         HODResponseParser mParser = new HODResponseParser();
@@ -583,8 +583,8 @@ namespace RichMediaAnalytics
         {
             var Params = new Dictionary<string, object>()
             {
-                {"url", "http://www.hodshowcase.com/media/" + mMediaMetadata.fileName },
-                //{"file", mSelectedMediaFile }, // use this to solve the limit file size with url
+                {"url", App.mRemoteServer + mMediaMetadata.fileName },
+                //{"file", mSelectedMediaFile }, // Comment the url line and uncomment this line if you want to use local media content
                 {"interval", "0" },
                 {"language", mMediaMetadata.mediaLanguage }
             };
@@ -795,7 +795,7 @@ namespace RichMediaAnalytics
                 instantsearch.Text = "";
                 nextwordbtn.IsEnabled = false;
                 searchwordcount.Text = "";
-                string content = "http://www.hodshowcase.com/media/" + item.filename;
+                string content = App.mRemoteServer + item.filename;
                 Uri contentLink = new Uri(content, UriKind.RelativeOrAbsolute);
                 mplayer.Source = contentLink;
             }

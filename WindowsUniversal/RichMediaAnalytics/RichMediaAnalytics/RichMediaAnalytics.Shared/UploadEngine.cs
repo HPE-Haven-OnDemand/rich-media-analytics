@@ -13,7 +13,7 @@ namespace RichMediaAnalytics
 {
     class UploadEngine
     {
-        private String _urlBase = "http://www.hodshowcase.com/media/uploadmedia.php";
+        private String _urlBase = "http://www.yourcompany.com/media/uploadmedia.php";
         private bool _isBusy = false;
 
         public delegate void UploadCompleted(int code, string response);
@@ -87,16 +87,6 @@ namespace RichMediaAnalytics
                                                 this.uploadCompleted(0, response);
                                             }
                                             break;
-                                        /*
-                                    case HttpStatusCode.BadRequest:
-                                        {
-                                            var message = postTask.Result.EnsureSuccessStatusCode();
-                                            var ret = message.Content.ReadAsStringAsync();
-                                            String response = ret.Result.ToString();
-                                            this.requestCompletedWithContent(response);
-                                        }
-                                        break;
-                                        */
                                         default:
                                             this.uploadCompleted(-1, resCode.ToString());
                                             break;
